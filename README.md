@@ -11,3 +11,10 @@ Every input data octet is represented by one output character. The 256 possible 
 
 We chose the encoding alphabet so ASCII text is as human-readable as possible: Nearly all printable ASCII bytes are encoded 1:1. The encoding alphabet for the "tag" character is chosen that ASCII-dominating input text will have "light" tag characters that disturbs the human reader as little as possible.
 
+The encoding of the data octets shows this table:
+
+![octet encoding table](siso93.png | width=982)
+
+The encoding of the "tag" byte shows this table:
+
+![tag encoding table](siso93-tag.png | width=600)
