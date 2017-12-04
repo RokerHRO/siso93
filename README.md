@@ -13,8 +13,8 @@ We chose the encoding alphabet so ASCII text is as human-readable as possible: N
 
 The encoding of the data octets shows this table:
 
-![octet encoding table](siso93.png | width=982)
+<img src="siso93.png" width="75%">
 
 The encoding of the "tag" byte shows this table:
 
-![tag encoding table](siso93-tag.png | width=600)
+<img src="siso93-tag.png" width="50%">
