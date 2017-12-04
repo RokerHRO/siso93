@@ -13,14 +13,14 @@ We chose the encoding alphabet so ASCII text is as human-readable as possible: N
 
 The encoding of the data octets shows this table:
 
-<img src="siso93.png" width="75%">
+![data octet encoding](siso93.png)
 
 White boxes denotes characters in "plane 0", yellow in "plane 1" and blue in "plane 2".
 For some characters there are alternative encodings defined if their occurrence in the encoded text is unwanted. More alternative encodings can be defined in the future (the yellow plane 1 has a lot of spare space, yet).
 
 The encoding of the "tag" byte shows this table:
 
-<img src="siso93-tag.png" width="50%">
+![tag byte encoding](siso93-tag.png)
 
 The first two data octets determine the table row, the last two data octets determine the table column.
 
