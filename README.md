@@ -16,7 +16,7 @@ The encoding of the data octets shows this table:
 <img src="siso93.png" width="75%">
 
 White boxes denotes characters in "plane 0", yellow in "plane 1" and blue in "plane 2".
-For some characters there are alternative encodings defined if their occurrence in the encoded text is unwanted.
+For some characters there are alternative encodings defined if their occurrence in the encoded text is unwanted. More alternative encodings can be defined in the future (the yellow plane 1 has a lot of spare space, yet).
 
 The encoding of the "tag" byte shows this table:
 
