@@ -1,5 +1,16 @@
 # Siso93 – A human-readable binary-to-text encoding
 
+## Example
+
+| Input | Output |
+|-------|--------|
+| This is an example of Siso93 encoding. |`` `This`_is_`an_e`xamp`le_o`f_Si`so93`_enc`odin`g. ``|
+| What does the word "Apfel" mean? |`` `What`_doe`s_th`e_wo.rd_*`Apfe,l*_m`ean? ``|
+| What does the word "Любовь" mean? |`` `What`_doe`s_th`e_wo.rd_*CP{Qn$P1P3$P2Ql'*_me`an? ``|
+| Die Größenänderung kostet 10€ pro Meter. |`` `Die_HGrC69C.enFC$nd`erun`g_ko`stet^_10brb,_p`ro_M`eter`. ``|
+| 👩 + 🎄 = ❤️ | `Ap.q)^_+_pl.nd_G=_b}$$o8o` |
+ 
+## How does it work
 As with Base85 we encode 4 octets into 5 characters, so the "encoding overhead" is 25% + overhead due to line breaks.
 The encoded data has this format:
 ```
