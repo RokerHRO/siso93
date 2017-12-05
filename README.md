@@ -1,6 +1,6 @@
 # Siso93 – A human-readable binary-to-text encoding
 
-## Example
+## Example
 
 | Input | Output |
 |-------|--------|
