@@ -20,7 +20,7 @@ The encoded data has this format:
 ```
 Every input data octet is represented by one output character. The 256 possible values are divided into 3 "planes" with 85…86 characters per plane. The "tag" character encodes the planes for the four following bytes. So there are 3x3x3x3 = 81 different tags possible.
 
-We chose the encoding alphabet so ASCII text is as human-readable as possible: Nearly all printable ASCII bytes are encoded 1:1, except "not HTML-safe" characters `&`, `<` and `>`. The encoding alphabet for the "tag" character is chosen that ASCII-dominating input text will have "light" tag characters that disturbs the human reader as little as possible.
+We chose the encoding alphabet so ASCII text is as human-readable as possible: Nearly all printable ASCII bytes are encoded 1:1, except characters that are not "HTML-safe" or that are used for quoting and escaping: `&`, `<`, `>`, `"` and `\`. The encoding alphabet for the "tag" character is chosen that ASCII-dominating input text will have "light" tag characters that disturbs the human reader as little as possible.
 
 The encoding of the data octets shows this table:
 
