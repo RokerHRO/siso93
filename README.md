@@ -36,3 +36,6 @@ The encoding of the "tag" byte shows this table:
 The first two data octets determine the table row, the last two data octets determine the table column.
 
 Example: If the 4 octets are in the planes 0, 2, 2, 1, the tag byte is encoded as `Y`.
+
+## See also
+https://github.com/sveljko/base41 – another unusual binary-to-text encoding. :-)
